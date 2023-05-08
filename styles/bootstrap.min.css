@@ -642,7 +642,9 @@ progress{
     --bs-gutter-x: .5rem
 }
 .g-2,.gy-2{
-    --bs-gutter-y: .5rem
+    --bs-gutter-y: .5rem;
+    display: flex;
+    flex-direction: column;
 }
 .g-3,.gx-3{
     --bs-gutter-x: 1rem
@@ -5914,7 +5916,7 @@ textarea.form-control-lg{
     margin-bottom:1rem !important
 }
 .mb-4{
-    margin-bottom:1.5rem !important
+    margin-bottom:1.5rem !important;
 }
 .mb-5{
     margin-bottom:3rem !important
