@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&family=Raleway:wght@300&family=The+Nautigal&family=Ubuntu:wght@700&display=swap');
-
-
 /********** Template CSS **********/
 :root {
     --primary: #86B817;
@@ -65,6 +63,7 @@
 .btn-lg-square {
     width: 48px;
     height: 48px;
+    border: 1px solid #86B816;
 }
 
 .btn-square,
@@ -173,7 +172,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../images/header-img.jpg);
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../images/header-img.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -448,4 +447,14 @@
 
 .fas{
     margin-right: 10px;
+}
+
+.rounded-borders{
+    border-radius: 41px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
