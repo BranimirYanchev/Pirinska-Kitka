@@ -458,3 +458,14 @@
     justify-content: center;
     margin-top: 50px;
 }
+
+.footer-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-style-2{
+    display: flex;
+    flex-direction: column;
+}
