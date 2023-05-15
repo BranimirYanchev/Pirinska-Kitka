@@ -1,6 +1,7 @@
 (function ($) {
     "use strict";
 
+
     // Spinner
     var spinner = function () {
         setTimeout(function () {
@@ -52,9 +53,13 @@
             $dropdown.off("mouseenter mouseleave");
         }
     });
-    
-    
+
     // Back to top button
+    $(window).on('load', () => {
+        $('.back-to-top').hide();
+        console.log(3);
+    })
+
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
             $('.back-to-top').fadeIn('slow');
@@ -62,6 +67,7 @@
             $('.back-to-top').fadeOut('slow');
         }
     });
+
     $('.back-to-top').click(function () {
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
