@@ -188,3 +188,12 @@ ul {
 ft-row{
     justify-content: center;
 }
+
+.footer-icons{
+    display: flex;
+}
+
+.ft-p-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
