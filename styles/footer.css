@@ -120,7 +120,7 @@ ul {
     margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-    color: #ff5e14;
+    color: var(--primary);
 }
 .footer-widget ul li a {
     color: #878787;

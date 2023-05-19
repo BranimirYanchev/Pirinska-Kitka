@@ -1,0 +1,22 @@
+.c-center{
+    flex-direction: column;
+    align-content: center;
+}
+
+.c-width{
+    width: 81.33333%;
+}
+
+.c-e-c{
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-e-3{
+    margin-bottom: 23px;
+}
+
+.c-h{
+    background-size: cover;
+    background: url("../images/c-bg.jpg") no-repeat;
+}

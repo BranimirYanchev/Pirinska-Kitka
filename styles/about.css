@@ -4,3 +4,19 @@
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../images/about-us-header.jpeg");
 }
+
+.f-s{
+    font-size: 25px;
+}
+
+.m-t{
+    margin-top: 30px;
+}
+
+.-m-t{
+   margin-top:-13px
+}
+
+.f-m-t{
+    margin-top: 57px;
+}
