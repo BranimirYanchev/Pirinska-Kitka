@@ -476,3 +476,9 @@
     flex-direction: column;
 }
 
+.p-p-f{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
