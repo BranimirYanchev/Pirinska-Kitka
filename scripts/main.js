@@ -95,5 +95,14 @@
             }
         }
     });
-    
+
+    let videos =  $('.video');
+
+    videos.toArray().forEach(showVideo);
+
+    function showVideo(item, index){
+        item.addEventListener('click', () => {
+            window.open($('source')[index].src);
+        })
+    }
 })(jQuery);
