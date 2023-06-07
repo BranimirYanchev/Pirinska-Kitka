@@ -30,11 +30,11 @@
 
     <!-- Template Stylesheet -->
     <link href="../styles/style.css" rel="stylesheet">
-    <link href="../styles/comming-concerts.css" rel="stylesheet">
+    <link href="../styles/album.css" rel="stylesheet">
     <link href="../styles/footer.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="album-body">
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -83,11 +83,11 @@
             </div>
         </nav>
 
-        <div class="container-fluid bg-primary py-5 mb-5 c-c-header">
+        <div class="container-fluid bg-primary py-5 mb-5 album-header">
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-                        <h1 class="display-3 text-white mb-3 animated slideInDown">Предстоящи концерти</h1>
+                        <h1 class="display-3 text-white mb-3 animated slideInDown"><span class="green-clr">Албум</span></h1>
                     </div>
                 </div>
             </div>
@@ -96,107 +96,121 @@
     <!-- Navbar & Hero End -->
 
 
-    <!-- Past concerts Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Концерти</h6>
-                <h1 class="mb-5">Предстоящи концерти</h1>
+   <!-- Destination Start -->
+   <div class="container-xxl py-5 destination">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">албум</h6>
+            <h1 class="mb-5">Най-нови снимки</h1>
+        </div>
+        <div class="row g-3">
+            <div class="col-lg-7 col-md-6">
+                <div class="row g-3">
+                    <div class="col-lg-6 col-md-12 wow img-div" data-wow-delay="0.3s">
+                        <a class="position-relative d-block overflow-hidden">
+                            <img class="img-fluid fs-img" src="../images/pk-img-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5s">
+                        <a class="position-relative d-block overflow-hidden">
+                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.3s">
+                        <a class="position-relative d-block overflow-hidden"  >
+                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5  s">
+                        <a class="position-relative d-block overflow-hidden"  >
+                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="../images/pk-img-17.png" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Име</h5>
-                            <small>Описание</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="../images/pk-img-17.png" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Име</h5>
-                            <small>Описание</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="../images/pk-img-17.png" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Име</h5>
-                            <small>Описание</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="../images/pk-img-17.png" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Име</h5>
-                            <small>Описание</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="../images/pk-img-17.png" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Име</h5>
-                            <small>Описание</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="../images/pk-img-17.png" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Име</h5>
-                            <small>Описание</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="../images/pk-img-17.png" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Име</h5>
-                            <small>Описание</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="../images/pk-img-17.png" alt="">
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Име</h5>
-                            <small>Описание</small>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-5 col-md-6 wow zoomIn img-div" data-wow-delay="0.7s" style="min-height: 350px;">
+                <a class="position-relative d-block h-100 overflow-hidden"  >
+                    <img class="img-fluid position-absolute w-100 h-100 fs-img" src="../images/pk-img-4.jpg" alt="" style="object-fit: cover;">
+                </a>
             </div>
         </div>
     </div>
-    <!-- Team End -->
-        
+</div>
+<!-- Destination Stop -->   
+<hr class="new5">
+<!-- Destination Start -->
+<div class="container-xxl py-5 destination">
+        <div class="row g-3">
+            <div class="col-lg-7 col-md-6">
+                <div class="row g-3">
+                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.3s">
+                        <a class="position-relative d-block overflow-hidden"  >
+                            <img class="img-fluid fs-img" src="../images/pk-img-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5s">
+                        <a class="position-relative d-block overflow-hidden"  >
+                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.3s">
+                        <a class="position-relative d-block overflow-hidden"  >
+                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5  s">
+                        <a class="position-relative d-block overflow-hidden"  >
+                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 wow zoomIn img-div" data-wow-delay="0.7s" style="min-height: 350px;">
+                <a class="position-relative d-block h-100 overflow-hidden"  >
+                    <img class="img-fluid position-absolute w-100 h-100 fs-img" src="../images/pk-img-4.jpg" alt="" style="object-fit: cover;">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Destination Stop -->   
+<hr class="new5">
+<!-- Destination Start -->
+<div class="container-xxl py-5 destination">
+    <div class="row g-3">
+        <div class="col-lg-7 col-md-6">
+            <div class="row g-3">
+                <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.3s">
+                    <a class="position-relative d-block overflow-hidden"  >
+                        <img class="img-fluid fs-img" src="../images/pk-img-2.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5s">
+                    <a class="position-relative d-block overflow-hidden"  >
+                        <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.3s">
+                    <a class="position-relative d-block overflow-hidden"  >
+                        <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5  s">
+                    <a class="position-relative d-block overflow-hidden"  >
+                        <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 col-md-6 wow zoomIn img-div" data-wow-delay="0.7s" style="min-height: 350px;">
+            <a class="position-relative d-block h-100 overflow-hidden"  >
+                <img class="img-fluid position-absolute w-100 h-100 fs-img" src="../images/pk-img-4.jpg" alt="" style="object-fit: cover;">
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Destination Stop -->   
 
     <!-- Footer Start -->
     <footer class="footer-section">
@@ -281,7 +295,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top rounded-borders"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

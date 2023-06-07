@@ -105,4 +105,25 @@
             window.open($('source')[index].src);
         })
     }
+    let imgContainer =  $('.img-div');
+
+    imgContainer.toArray().forEach(e => {
+            console.log(e)
+            e.addEventListener('click', (event) => {
+                openImage(e);
+            })
+        });
+    function openImage(item){
+        item.classList.toggle('fs-con');
+        document.body.classList.toggle('disable-bd');
+        let images = $('.fs-img');
+        images.toArray().forEach(e => {
+            if(e.classList.contains('position-absolute')){
+                e.classList.toggle('position-absolute');
+            }
+        })
+    }
+
 })(jQuery);
+
+

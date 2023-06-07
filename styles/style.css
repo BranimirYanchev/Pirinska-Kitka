@@ -487,3 +487,7 @@
     align-items: flex-start;
     margin-top: 10px;
 }
+
+.al-dd{
+    width: 150px;
+}

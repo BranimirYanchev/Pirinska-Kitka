@@ -1,0 +1,29 @@
+.album-header{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../images/pk-img-22.png");
+}
+
+.fs-con {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.550),rgba(0, 0, 0, 0.6));
+    z-index: 9999;
+}
+
+.disable-bd{
+    overflow: hidden;
+}
+
+.fs-con img {
+    max-height: 100%;
+    max-width: 100%;
+}

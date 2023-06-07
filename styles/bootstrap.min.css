@@ -35,7 +35,7 @@
 }
 
 *{
-    font-family:"Quicksand",sans-serif;!important;
+    font-family:"Monserrat",sans-serif;!important;
 }
 
 body{
@@ -1612,6 +1612,13 @@ progress{
     .table-responsive-md{
         overflow-x:auto;
         -webkit-overflow-scrolling:touch
+    }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
 }
 @media (max-width: 991.98px){
