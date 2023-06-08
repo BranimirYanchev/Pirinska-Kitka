@@ -197,3 +197,22 @@ ft-row{
     display: flex;
     justify-content: space-evenly;
 }
+
+@media (max-width: 767.98px){
+    .cta-text{
+        padding: 0px;
+        display: contents;
+    }
+
+    .single-cta{
+        margin: 2px;
+    }
+
+    .md-wth{
+        width: 98%
+    }
+    .cta-text span {
+        color: #757575;
+        font-size: 13px;
+    }
+}
