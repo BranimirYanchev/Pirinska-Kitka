@@ -30,11 +30,12 @@
 
     <!-- Template Stylesheet -->
     <link href="../styles/style.css" rel="stylesheet">
-    <link href="../styles/album.css" rel="stylesheet">
-    <link href="../styles/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/album.css">
+    <link rel="stylesheet" href="../styles/openImage.css">
 </head>
 
-<body id="album-body">
+<body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -42,6 +43,7 @@
         </div>
     </div>
     <!-- Spinner End -->
+
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
@@ -58,7 +60,7 @@
                     <a href="about.html" class="nav-item nav-link"><i class="fas fa-info"></i>Информация</a>
                     <!--                    <a href="service.html" class="nav-item nav-link">Services</a>-->
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-item nav-link"><i class="fas fa-image"></i>Снимки</a>
+                        <a href="#" class="nav-item nav-link dropdown-toggle"><i class="fas fa-image"></i>Снимки</a>
                         <div class="dropdown-menu m-0">
                             <!--                            <a href="destination.html" class="dropdown-item">Destination</a>-->
                             <!--                            <a href="booking.html" class="dropdown-item">Booking</a>-->
@@ -87,7 +89,7 @@
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-                        <h1 class="display-3 text-white mb-3 animated slideInDown"><span class="green-clr">Албум</span></h1>
+                        <h1 class="display-3 text-white mb-3 animated slideInDown">Албум</h1>
                     </div>
                 </div>
             </div>
@@ -96,123 +98,338 @@
     <!-- Navbar & Hero End -->
 
 
-   <!-- Destination Start -->
-   <div class="container-xxl py-5 destination">
-    <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">албум</h6>
-            <h1 class="mb-5">Най-нови снимки</h1>
-        </div>
-        <div class="row g-3">
-            <div class="col-lg-7 col-md-6">
+        <!-- Destination Start -->
+        <div class="container-xxl py-5 destination">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">Снимки</h6>
+                    <h1 class="mb-5">Снимки 2023 - 2024</h1>
+                </div>
                 <div class="row g-3">
-                    <div class="col-lg-6 col-md-12 wow img-div" data-wow-delay="0.3s">
-                        <a class="position-relative d-block overflow-hidden">
-                            <img class="img-fluid fs-img" src="../images/pk-img-2.jpg" alt="">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115961152824946698/pk-img-1_6.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115961344844370002/pk-img-1_7.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115961839625457694/pk-img-1_8.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115962452404863006/pk-img-1_10.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                        <a class="position-relative d-block h-100 overflow-hidden" href="">
+                            <img class="img-fluid position-absolute w-100 h-100" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t39.30808-6/344565848_613918683986560_7846138063130166197_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=f40TimvAcIUAX8qQrFk&_nc_ht=scontent.fsof10-1.fna&oh=00_AfD0rtWGhVtJXSsTK9tWZbcSlW-XAT17GmF5O8MPV1_ZtQ&oe=6486526C" alt="" style="object-fit: cover;">
                         </a>
                     </div>
-                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5s">
-                        <a class="position-relative d-block overflow-hidden">
-                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.3s">
-                        <a class="position-relative d-block overflow-hidden"  >
-                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5  s">
-                        <a class="position-relative d-block overflow-hidden"  >
-                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-6 wow zoomIn img-div" data-wow-delay="0.7s" style="min-height: 350px;">
-                <a class="position-relative d-block h-100 overflow-hidden"  >
-                    <img class="img-fluid position-absolute w-100 h-100 fs-img" src="../images/pk-img-4.jpg" alt="" style="object-fit: cover;">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Destination Stop -->   
-<hr class="new5">
-<!-- Destination Start -->
-<div class="container-xxl py-5 destination">
-        <div class="row g-3">
-            <div class="col-lg-7 col-md-6">
-                <div class="row g-3">
-                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.3s">
-                        <a class="position-relative d-block overflow-hidden"  >
-                            <img class="img-fluid fs-img" src="../images/pk-img-2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5s">
-                        <a class="position-relative d-block overflow-hidden"  >
-                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.3s">
-                        <a class="position-relative d-block overflow-hidden"  >
-                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5  s">
-                        <a class="position-relative d-block overflow-hidden"  >
-                            <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-6 wow zoomIn img-div" data-wow-delay="0.7s" style="min-height: 350px;">
-                <a class="position-relative d-block h-100 overflow-hidden"  >
-                    <img class="img-fluid position-absolute w-100 h-100 fs-img" src="../images/pk-img-4.jpg" alt="" style="object-fit: cover;">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Destination Stop -->   
-<hr class="new5">
-<!-- Destination Start -->
-<div class="container-xxl py-5 destination">
-    <div class="row g-3">
-        <div class="col-lg-7 col-md-6">
-            <div class="row g-3">
-                <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.3s">
-                    <a class="position-relative d-block overflow-hidden"  >
-                        <img class="img-fluid fs-img" src="../images/pk-img-2.jpg" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5s">
-                    <a class="position-relative d-block overflow-hidden"  >
-                        <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.3s">
-                    <a class="position-relative d-block overflow-hidden"  >
-                        <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-12 wow zoomIn img-div" data-wow-delay="0.5  s">
-                    <a class="position-relative d-block overflow-hidden"  >
-                        <img class="img-fluid fs-img" src="../images/pk-img-1.jpg" alt="">
-                    </a>
                 </div>
             </div>
         </div>
-        <div class="col-lg-5 col-md-6 wow zoomIn img-div" data-wow-delay="0.7s" style="min-height: 350px;">
-            <a class="position-relative d-block h-100 overflow-hidden"  >
-                <img class="img-fluid position-absolute w-100 h-100 fs-img" src="../images/pk-img-4.jpg" alt="" style="object-fit: cover;">
-            </a>
-        </div>
-    </div>
-</div>
-</div>
-<!-- Destination Stop -->   
+        <!-- Destination Start -->
 
-    <!-- Footer Start -->
+        <!-- Destination Start -->
+        <div class="container-xxl py-5 destination">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">Снимки</h6>
+                    <h1 class="mb-5">Снимки 2022 - 2023</h1>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115960753376198696/pk-img-1_5.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115960606391017564/pk-img-1_4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115960392263417876/pk-img-1_3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115960247727693904/pk-img-1_2.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                        <a class="position-relative d-block h-100 overflow-hidden" href="">
+                            <img class="img-fluid position-absolute w-100 h-100" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t39.30808-6/280506957_3101912336735507_1239419610765093671_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=NjYm00CXCmkAX9fdfL1&_nc_ht=scontent.fsof10-1.fna&oh=00_AfB5zglDsuAzQJ33FhonirJb9bYlMLoWwW0npr6UCA1pWw&oe=64846D96" alt="" style="object-fit: cover;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Destination Start -->
+
+        <!-- Destination Start -->
+        <div class="container-xxl py-5 destination">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">Снимки</h6>
+                    <h1 class="mb-5">Снимки 2021 - 2022</h1>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115957556981022740/58379852_2268559990070750_12536580040294400_n_1_1_1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115958040068370462/58379852_2268559990070750_12536580040294400_n_1_1_2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115958276216078376/pk-img-1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1115952100774514759/1115958687299797083/pk-img-1_1.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                        <a class="position-relative d-block h-100 overflow-hidden" href="">
+                            <img class="img-fluid position-absolute w-100 h-100" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t39.30808-6/235868013_2908276102765799_2881865303546241202_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=WszTHtK-sOYAX_htkae&_nc_ht=scontent.fsof10-1.fna&oh=00_AfCU-5Yg9tc1-jL94sEbeIfSDxrJWLKJxedPr4YxjtvChw&oe=64862E4B" alt="" style="object-fit: cover;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Destination Start -->
+        <!-- Destination Start -->
+                <div class="container-xxl py-5 destination">
+                    <div class="container">
+                        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                            <h6 class="section-title bg-white text-center text-primary px-3">Снимки</h6>
+                            <h1 class="mb-5">Снимки 2020 - 2021</h1>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-lg-7 col-md-6">
+                                <div class="row g-3">
+                                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                        <a class="position-relative d-block overflow-hidden" href="">
+                                            <img class="img-fluid" src="https://cdn.discordapp.com/attachments/1115952100774514759/1115957298746114088/58379852_2268559990070750_12536580040294400_n_1_1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                        <a class="position-relative d-block overflow-hidden" href="">
+                                            <img class="img-fluid" src="https://cdn.discordapp.com/attachments/1115952100774514759/1115956689078857899/58379852_2268559990070750_12536580040294400_n_1_1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                        <a class="position-relative d-block overflow-hidden" href="">
+                                            <img class="img-fluid" src="https://cdn.discordapp.com/attachments/1115952100774514759/1115956399512490095/58419367_2270429283217154_5918509017432326144_n_1_1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                        <a class="position-relative d-block overflow-hidden" href="">
+                                            <img class="img-fluid" src="https://cdn.discordapp.com/attachments/1115952100774514759/1115956124475211826/58419367_2270429283217154_5918509017432326144_n_1.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                                <a class="position-relative d-block h-100 overflow-hidden" href="">
+                                    <img class="img-fluid position-absolute w-100 h-100" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.6435-9/118486542_2654009101525835_6584669532561605691_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=zGxYr0D3sAIAX9utvrI&_nc_ht=scontent.fsof10-1.fna&oh=00_AfC3OSlflAjh35FYRr3HXBVH7DeS_Sbv088UDhspRa9SNw&oe=64A7D4F6" alt="" style="object-fit: cover;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!-- Destination Start -->
+        <!-- Destination Start -->
+                                <div class="container-xxl py-5 destination">
+                                    <div class="container">
+                                        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                                            <h6 class="section-title bg-white text-center text-primary px-3">Снимки</h6>
+                                            <h1 class="mb-5">Снимки 2019 - 2020</h1>
+                                        </div>
+                                        <div class="row g-3">
+                                            <div class="col-lg-7 col-md-6">
+                                                <div class="row g-3">
+                                                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                                        <a class="position-relative d-block overflow-hidden" href="">
+                                                            <img class="img-fluid" src="https://cdn.discordapp.com/attachments/1115952100774514759/1115955201573142640/58379852_2268559990070750_12536580040294400_n_1.png" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                                        <a class="position-relative d-block overflow-hidden" href="">
+                                                            <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.6435-9/58379852_2268559990070750_12536580040294400_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7b5p867c8x0AX_8kZz5&_nc_ht=scontent.fsof10-1.fna&oh=00_AfCpO6aBStL4udP2RYeTwWL_skhg1hbOITuqcSWp-fYEuQ&oe=64A7E2C4" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                                        <a class="position-relative d-block overflow-hidden" href="">
+                                                            <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.6435-9/71942504_2384048358521912_4994305774151794688_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=7Hx3tgMrI2UAX8HzMXC&_nc_ht=scontent.fsof10-1.fna&oh=00_AfBTFgDcvzqWLV154OYBM8VImbcwG8mvaHgJF9WN6yD0dQ&oe=64A7C288" alt="">
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                                        <a class="position-relative d-block overflow-hidden" href="">
+                                                            <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.6435-9/58419367_2270429283217154_5918509017432326144_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=gG6PTx7fnDQAX-gdn5i&_nc_ht=scontent.fsof10-1.fna&oh=00_AfBvZB7ZWjNCh7OKC0yy4slBejQjmrfornH-bJVOglMrkw&oe=64A7CB6E" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                                                <a class="position-relative d-block h-100 overflow-hidden" href="">
+                                                    <img class="img-fluid position-absolute w-100 h-100" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.6435-9/64586148_2304829493110466_8451632298561896448_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=oVW9n8Ti09wAX8lETHx&_nc_ht=scontent.fsof10-1.fna&oh=00_AfCGVDepTymrU18jMGWIwL7vdF0S-bpf0lkpm0eiLcNOEA&oe=64A7C07E" alt="" style="object-fit: cover;">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+<!-- Destination Start -->
+        <!-- Destination Start -->
+        <div class="container-xxl py-5 destination">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">Снимки</h6>
+                    <h1 class="mb-5">Снимки 2018 - 2019</h1>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.6435-9/37239753_2090413797885371_3242302109177085952_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=Qzg4R-KGA7QAX_UNMVE&_nc_ht=scontent.fsof10-1.fna&oh=00_AfARRE_-5-G2v_BeDLAmXm99gU1uIoMiDU1ikZRkXNyTXQ&oe=64A6BBE5" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://cdn.discordapp.com/attachments/1113074368868798534/1115673486518653048/37239753_2090413797885371_3242302109177085952_n.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.18169-9/28379775_2004636049796480_4419474715445379729_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9bufAR5sbx4AX_uFLIi&_nc_ht=scontent.fsof10-1.fna&oh=00_AfAsq65wYWI9sp9QTFoS96i3LKD1g8yLLpVf_I1oGFSnKw&oe=64A6B8BA" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.18169-9/28468198_2004636039796481_2766989038150720226_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=9m2NIJW05ZIAX_zYlAp&_nc_ht=scontent.fsof10-1.fna&oh=00_AfDkDsPvSixISueBeCeYjpx9dsi7xPK7VyuzggB6VTOhRQ&oe=64A6D0CE" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                        <a class="position-relative d-block h-100 overflow-hidden" href="">
+                            <img class="img-fluid position-absolute w-100 h-100" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.6435-9/41026206_2137888359804581_1017271370653892608_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=-Zkmg5aVGy0AX_eA1DO&_nc_ht=scontent.fsof10-1.fna&oh=00_AfAOcGyK5eIHzIMutG73n4WZzhPdCBA64tqI1rjd3RdpAg&oe=64A7D1DA" alt="" style="object-fit: cover;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Destination Start -->
+        <!-- Destination Start -->
+        <div class="container-xxl py-5 destination">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">Снимки</h6>
+                    <h1 class="mb-5">Снимки 2017 - 2018</h1>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://cdn.discordapp.com/attachments/1113074368868798534/1115671152875016303/22550057_1942946952632057_4911822723517766465_n.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://media.discordapp.net/attachments/1113074368868798534/1115671631478657065/22550057_1942946952632057_4911822723517766465_n_1.png?width=895&height=671" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.18169-9/22550057_1942946952632057_4911822723517766465_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=-5j0xQMLuwAAX97zQAu&_nc_ht=scontent.fsof10-1.fna&oh=00_AfD9C5wJpaqyPOMEM6D7KaPf-Qab7wc-AatcP0XrdbcXtw&oe=64A6DCAD" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t31.18172-8/17622119_1847782612148492_1424465250228280173_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=19026a&_nc_ohc=P9Y6xtCx4WgAX-qWz4-&_nc_ht=scontent.fsof10-1.fna&oh=00_AfAoaUv0lh1wrpaxpqzhGUbJRJZiFlanCJLs3WU5xtxYNQ&oe=64A6AFD0" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                        <a class="position-relative d-block h-100 overflow-hidden" href="">
+                            <img class="img-fluid position-absolute w-100 h-100" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t31.18172-8/16402492_1820056171587803_2165549596160078584_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9267fe&_nc_ohc=_pbSMz8_TKEAX_2oGYv&_nc_ht=scontent.fsof10-1.fna&oh=00_AfCSWLaDSxIx0UV3BwMlk53vPulJ7ulIiIRKRiaLVv7phg&oe=64A6B7D7" alt="" style="object-fit: cover;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Destination Start -->
+        <!-- Destination Start -->
+        <div class="container-xxl py-5 destination">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">Снимки</h6>
+                    <h1 class="mb-5">Снимки 2016 - 2017</h1>
+                </div>
+                <div class="row g-3">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="row g-3">
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.18169-9/15442295_1800208006905953_503124088888532674_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=wpyarDLGvvcAX-At0Ub&_nc_ht=scontent.fsof10-1.fna&oh=00_AfA7F00eCufLdFpCbw51tYqRlyD-kVcQgE_b9F0_Vtpj3w&oe=64A6CD76" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.18169-9/15541172_1800207903572630_999103109466149959_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=l8XVRF_yuFcAX-Lfdqd&_nc_ht=scontent.fsof10-1.fna&oh=00_AfBflW8EWOr2p2pJ-k1yHpDlHtBA5zXgkFSH_zNlcy2oMg&oe=64A6E04A" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.18169-9/15220239_1800207946905959_7824284772970861531_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=MCSSoW3VyVsAX-9ZWpA&_nc_ht=scontent.fsof10-1.fna&oh=00_AfAHOIqzcVcuJuGyjfwjrcXRrKchEzAy0YarYVJFo9k6hg&oe=64A6D8FC" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                                <a class="position-relative d-block overflow-hidden" href="">
+                                    <img class="img-fluid" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.18169-9/15439752_1800204280239659_2335526495908069928_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=hRs-5N_THDIAX_6z_Uu&_nc_ht=scontent.fsof10-1.fna&oh=00_AfCwbS9TPP1LmJJ_NZ_Dju5ONgwshZOfd5lD5MzlDpnQYA&oe=64A6CDDC" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                        <a class="position-relative d-block h-100 overflow-hidden" href="">
+                            <img class="img-fluid position-absolute w-100 h-100" src="https://scontent.fsof10-1.fna.fbcdn.net/v/t1.18169-9/15578650_1798817000378387_4499405533482380307_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=19026a&_nc_ohc=_xPlHa_iWfsAX-Qq0qv&_nc_oc=AQlgTxC-GiP2jpVv2LXsKWfgJ4-KxPajsvQQsaJBf3xQEEUagn4qfjrFesgLxvjJFMjzLgqpoMThX2lttVkSXOKI&_nc_ht=scontent.fsof10-1.fna&oh=00_AfBPPcWBvW2uwnRKTc6GTikIOodq7NHFG4WFIO0arb_hVQ&oe=64A6AD90" alt="" style="object-fit: cover;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Destination Start -->
+
+    <!--  Footer Start  -->
     <footer class="footer-section">
         <div class="container">
             <div class="footer-cta pt-5 pb-5">
@@ -248,33 +465,37 @@
             </div>
             <div class="footer-content pt-5 pb-5">
                 <div class="row ft-row" style="flex-wrap: nowrap">
-                    <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="col-xl-4 col-lg-4 mb-50 ft-logo-container">
                         <div class="footer-widget">
                             <div class="footer-logo">
                                 <a href="index.html"><img src="../images/pirinska_kitka_logo.png" class="img-fluid footer-logo-img rounded-borders" alt="logo"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Полезни линкове</h3>
+                    <div class="ft-p-2">
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Полезни линкове</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="index.html">Начало</a></li>
+                                    <li><a href="about.html">Информация</a></li>
+                                    <li><a href="gallery.html">Галерия</a></li>
+                                    <li><a href="past-concerts.html">Новини</a></li>
+                                    <li><a href="contact.html">Контакти</a></li>
+                                    <li><a href="awards.html">Награди</a></li>
+                                </ul>
                             </div>
-                            <ul>
-                                <li><a href="#">Начало</a></li>
-                                <li><a href="#">Информация</a></li>
-                                <li><a href="#">Галерия</a></li>
-                                <li><a href="#">Новини</a></li>
-                                <li><a href="#">Контакти</a></li>
-                                <li><a href="#">Награди</a></li>
-                            </ul>
                         </div>
-                    </div>
-                    <div class="footer-social-icon">
-                        <span>Follow us</span>
-                        <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                        <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                        <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                        <div class="footer-social-icon">
+                            <span>Последвай ни</span>
+                            <div class="footer-icons">
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-instagram twitter-bg"></i></a>
+                                <a href="#"><i class="fas fa-envelope google-bg"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -291,8 +512,8 @@
             </div>
         </div>
     </footer>
-    <!-- Footer End -->
 
+    <!--  Footer End  -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top rounded-borders"><i class="bi bi-arrow-up"></i></a>
@@ -311,6 +532,7 @@
 
     <!-- Template Javascript -->
     <script src="../scripts/main.js"></script>
+    <script src="../scripts/openImages.js"></script>
 </body>
 
 </html>

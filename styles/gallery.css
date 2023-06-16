@@ -1,0 +1,6 @@
+.gallery-header{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("https://scontent-sof1-2.xx.fbcdn.net/v/t39.30808-6/316266942_204181722007104_8774001651822571297_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=57ogx7WAaM4AX_5Cdv6&_nc_ht=scontent-sof1-2.xx&oh=00_AfBdrNqh1p4fNqwicG4b4nLdD3wwFow4kDf442ZKlXrhnw&oe=649192FB");
+}
